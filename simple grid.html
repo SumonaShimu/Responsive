@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple grid</title>
+    <style>
+        .container{
+            
+            display: grid;
+            /* grid-template-columns: 200px 200px auto; */
+            grid-template-columns: repeat(2,1fr) 2fr;
+            justify-content:center;
+            row-gap: 10px;
+            column-gap: 30px;
+         
+        }
+        .box{
+            border: 2px dotted navy;
+            background-color: aqua;
+            display: flex;
+            justify-content:center;     /* horizontal cental */
+        }
+    </style>
+</head>
+<body>
+    <h2>exploring grid</h2>
+    <div class="container">
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+        <div class="box">SumonaShimu</div>
+    </div>
+</body>
+</html>

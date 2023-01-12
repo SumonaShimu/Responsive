@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex_Positioning</title>
+    <style>
+        .main_div1 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main_div2 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .main_div3 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .main_div4 {
+            height: 200px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main_div5 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        .main_div6 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main_div7 {
+            height: 100px;
+            border: 2px solid blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+
+        #txt_center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .secondary-1 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(255, 0, 47);
+        }
+        .secondary-2 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(0, 166, 255);
+        }
+        .secondary-3 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(255, 166, 0);
+        }
+        .secondary-4 {
+            width: 70px;
+            height: 30px;
+            background-color: rgb(0, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_div1">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div2">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div3">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div4">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2" id="txt_center">box no-2</div>
+        <div class="secondary-3" id="txt_center">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div5">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div6">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+    <div class="main_div7" style="text-align: center;">
+        <div class="secondary-1">box no-1</div>
+        <div class="secondary-2">box no-2</div>
+        <div class="secondary-3">box no-3</div>
+        <div class="secondary-4">box no-4</div>
+    </div>
+
+</body>
+
+</html>

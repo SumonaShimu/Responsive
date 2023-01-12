@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        body {
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        form {
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: rgb(182, 200, 65);
+        }
+
+        p {
+            height: 40px;
+            width: 45%;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(7, 94, 80);
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: rgb(40, 10, 79);
+        }
+
+        .center {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: rgb(40, 10, 79);
+        }
+
+        a{
+            text-decoration: none;
+        }
+        @media screen and (max-width:700px) {
+            body {
+                width: 90%;
+            }
+
+            p {
+                width: 70%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choose your destination</h1>
+    <form action="">
+        <a href="./calender.html" target="_blank">
+            <p class="center">calender</p>
+        </a>
+        <a href="./photoalbum.html" target="_blank">
+            <p class="center">photo album</p>
+        </a>
+        <a href="./responsive.html" target="_blank">
+            <p class="center">torkarir dokan</p>
+        </a>
+        <a href="./flex_positioning.html" target="_blank">
+            <p class="center">flex-grid</p>
+        </a>
+        <a href="./simple grid.html" target="_blank">
+            <p class="center">Grid</p>
+        </a>
+    </form>
+</body>
+
+</html>
